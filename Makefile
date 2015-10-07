@@ -1,2 +1,2 @@
 sassdoc:
-	sassdoc test/ --dest="test/build" --theme="./"
+	sassdoc test/src --dest="test/build" --theme="./"

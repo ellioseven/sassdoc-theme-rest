@@ -7,10 +7,10 @@
       "variable": ["description", "type", "property", "require", "example", "usedby", "since", "see", "todo", "link", "author"]
     },
     "access": ["public", "private"],
-    "alias": false,
-    "watermark": true
+    "alias": false
   },
   "groups": {
     "undefined": "General"
-  }
+  },
+  "pagesFrom": "../test/pages"
 }

@@ -1,5 +1,5 @@
-test
-====
+General
+=======
 
 access-private
 --------------
@@ -241,13 +241,6 @@ Description
 
 Require
 
-Requires
-~~~~~~~~
-
-* `see`
-
-* `item`
-
 see
 ---
 
@@ -262,22 +255,6 @@ Description
 ~~~~~~~~~~~
 
 See
-
-Used By
-~~~~~~~
-
-* [mixin] `require`
-
-See
-~~~
-
-* [mixin] `other-item`
-
-* [mixin] `other-item`
-
-* [mixin] `other-item`
-
-* [mixin] `other-item`
 
 since
 -----
@@ -384,11 +361,6 @@ Description
 ~~~~~~~~~~~
 
 Item
-
-Used By
-~~~~~~~
-
-* [mixin] `require`
 
 other-item
 ----------

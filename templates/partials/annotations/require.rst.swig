@@ -1,4 +1,5 @@
-{% if item.require.length %}
+{% if item.require.length > 0 %}
+{% if (display.access.indexOf(require.item.access) != -1) and not (not display.alias and require.item.alias) or require.external %}
 Requires
 ~~~~~~~~
 
@@ -10,4 +11,5 @@ Requires
 {% endif %}
 {% endfor %}
 
+{% endif %}
 {% endif %}
