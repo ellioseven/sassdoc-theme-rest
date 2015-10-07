@@ -4,9 +4,9 @@ Links
 
 {% for link in item.link %}
 {% if link.caption %}
-`{{ link.caption }} <{link.url}>`_
+`{{ link.caption }} <{{ link.url }}>`_
 {% else %}
-`<{link.url}>`_
+`<{{ link.url }}>`_
 {% endif %}
 
 {% endfor %}

@@ -15,8 +15,3 @@ Description
 ~~~~~~~~~~~
 
 Group
-
-Parameters
-~~~~~~~~~~
-
-None

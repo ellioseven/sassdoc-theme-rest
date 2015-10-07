@@ -4,6 +4,9 @@ test
 access-private
 --------------
 
+Access
+~~~~~~
+
 private
 
 Source
@@ -17,11 +20,6 @@ Description
 ~~~~~~~~~~~
 
 Access Private
-
-Parameters
-~~~~~~~~~~
-
-None
 
 alias-bar
 ---------
@@ -38,11 +36,6 @@ Description
 
 Alias Bar
 
-Parameters
-~~~~~~~~~~
-
-None
-
 author
 ------
 
@@ -57,11 +50,6 @@ Description
 ~~~~~~~~~~~
 
 Author
-
-Parameters
-~~~~~~~~~~
-
-None
 
 Author
 ~~~~~~
@@ -82,11 +70,6 @@ Description
 ~~~~~~~~~~~
 
 Content
-
-Parameters
-~~~~~~~~~~
-
-None
 
 Content
 ~~~~~~~
@@ -112,11 +95,6 @@ Description
 
 Deprecated
 
-Parameters
-~~~~~~~~~~
-
-None
-
 example
 -------
 
@@ -131,11 +109,6 @@ Description
 ~~~~~~~~~~~
 
 Example
-
-Parameters
-~~~~~~~~~~
-
-None
 
 Example
 ~~~~~~~
@@ -167,11 +140,6 @@ Description
 
 Ignore
 
-Parameters
-~~~~~~~~~~
-
-None
-
 link
 ----
 
@@ -187,17 +155,12 @@ Description
 
 Link
 
-Parameters
-~~~~~~~~~~
-
-None
-
 Links
 ~~~~~
 
-`<{link.url}>`_
+`<http://some.url>`_
 
-`Optional caption <{link.url}>`_
+`Optional caption <http://some.url>`_
 
 message-[error|warning|success|info]
 ------------------------------------
@@ -214,11 +177,6 @@ Description
 
 Name
 
-Parameters
-~~~~~~~~~~
-
-None
-
 output
 ------
 
@@ -233,11 +191,6 @@ Description
 ~~~~~~~~~~~
 
 Output
-
-Parameters
-~~~~~~~~~~
-
-None
 
 Output
 ~~~~~~
@@ -264,7 +217,7 @@ Parameters
 
 ================ ================ ================ ================
 Name             Description      Type             Default Value   
----------------- ---------------- ---------------- ----------------
+================ ================ ================ ================
 name                              type                             
 name                              type | othertype                 
 name             description      type                             
@@ -279,20 +232,19 @@ Source
 
 .. code-block::
 
-	@mixin require() { }
+	@mixin require() { 
+	  @include see;
+	}
 
 Description
 ~~~~~~~~~~~
 
 Require
 
-Parameters
-~~~~~~~~~~
-
-None
-
 Requires
 ~~~~~~~~
+
+* `see`
 
 * `item`
 
@@ -311,35 +263,29 @@ Description
 
 See
 
-Parameters
-~~~~~~~~~~
+Used By
+~~~~~~~
 
-None
-
-See
-~~~
-
-* [mixin] `other-item`
+* [mixin] `require`
 
 See
 ~~~
 
 * [mixin] `other-item`
 
-See
-~~~
-
 * [mixin] `other-item`
 
-See
-~~~
+* [mixin] `other-item`
 
 * [mixin] `other-item`
 
 since
 -----
 
-Since version - description
+Since
+~~~~~
+
+version — description
 
 Source
 ~~~~~~
@@ -353,10 +299,34 @@ Description
 
 Since
 
-Parameters
-~~~~~~~~~~
+Since
+~~~~~
 
-None
+version — description
+
+changelog
+---------
+
+Source
+~~~~~~
+
+.. code-block::
+
+	@mixin changelog() { }
+
+Description
+~~~~~~~~~~~
+
+Changelog
+
+Changelog
+~~~~~~~~~
+
+* 1.0 — Stuff happened in 1.0
+
+* 2.0 — Stuff happened in 2.0
+
+* 3.0 — Stuff happened in 3.0
 
 throw
 -----
@@ -367,18 +337,13 @@ Source
 .. code-block::
 
 	@mixin throw() { 
-	  @error &quot;Error related message&quot;;
+	  @error "Error related message";
 	}
 
 Description
 ~~~~~~~~~~~
 
 Throw
-
-Parameters
-~~~~~~~~~~
-
-None
 
 Throws
 ~~~~~~
@@ -400,11 +365,6 @@ Description
 
 Todo
 
-Parameters
-~~~~~~~~~~
-
-None
-
 TODO's
 ~~~~~~
 
@@ -424,11 +384,6 @@ Description
 ~~~~~~~~~~~
 
 Item
-
-Parameters
-~~~~~~~~~~
-
-None
 
 Used By
 ~~~~~~~
@@ -450,11 +405,6 @@ Description
 
 Other Item
 
-Parameters
-~~~~~~~~~~
-
-None
-
 prop
 ----
 
@@ -475,7 +425,7 @@ Map Structure
 
 ============= ============= ============= =============
 Name          Description   Type          Default Value
-------------- ------------- ------------- -------------
+============= ============= ============= =============
 prop.default  description   Type          default      
 ============= ============= ============= =============
 
@@ -487,7 +437,7 @@ Source
 
 .. code-block::
 
-	$type: &quot;foo&quot;
+	$type: "foo"
 
 Description
 ~~~~~~~~~~~
@@ -507,7 +457,7 @@ Source
 
 .. code-block::
 
-	$other-item: &quot;foo&quot;
+	$other-item: "foo"
 
 Description
 ~~~~~~~~~~~
@@ -530,11 +480,6 @@ Description
 ~~~~~~~~~~~
 
 Return
-
-Parameters
-~~~~~~~~~~
-
-None
 
 Returns
 ~~~~~~~

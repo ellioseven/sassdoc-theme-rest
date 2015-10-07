@@ -1,9 +1,6 @@
-{% if item.since.length > 1 %}
-Changelog
-~~~~~~~~~
+{% if item.since.length == 1 %}
+Since
+~~~~~
 
-{% for since in item.since %}
-* {{ since.version }}{% if since.description %} &mdash; {{ since.description|safe }}{% endif %}
-
-{% endfor %}
+{{ item.since[0].version }}{% if item.since[0].description %} — {{ item.since[0].description }}{% endif %}
 {% endif %}
