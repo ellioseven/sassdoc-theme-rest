@@ -1,0 +1,25 @@
+{
+  "name": "sassdoc-rst-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib",
+  "files": [
+    "lib",
+    "views",
+    "default.json"
+  ],
+  "dependencies": {
+    "es6-denodeify": "^0.1.0",
+    "es6-promise": "^2.0.1",
+    "extend": "^2.0.0",
+    "fs-extra": "^0.16.3",
+    "sassdoc-extras": "^2.2.0",
+    "swig": "1.4.0",
+    "rest-simple-table": "1.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
