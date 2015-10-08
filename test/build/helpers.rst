@@ -7,7 +7,7 @@ group
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin group() { }
 

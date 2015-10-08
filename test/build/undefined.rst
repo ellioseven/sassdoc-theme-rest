@@ -12,7 +12,7 @@ private
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin access-private() { 
 	  font-size: 20px;
@@ -34,7 +34,7 @@ alias-bar
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin alias-bar() { }
 
@@ -49,7 +49,7 @@ author
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin author() { }
 
@@ -69,7 +69,7 @@ content
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin content() { }
 
@@ -81,7 +81,7 @@ Content
 Content
 ~~~~~~~
 
-This mixin allows extra content to be passed (through the `@content` directive).
+This mixin allows extra content to be passed (through the ``@content`` directive).
 
 Role: [Description]
 
@@ -93,7 +93,7 @@ deprecated
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin deprecated() { }
 
@@ -108,7 +108,7 @@ example
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin example() { }
 
@@ -120,14 +120,14 @@ Example
 Example
 ~~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	4 + 2 = 8
 	4 / 2 = 2
 
 Clamp function
 
-.. code-block::
+.. code-block:: scss
 
 	clamp(42, $min: 13, $max: 37)
 	// 37
@@ -138,7 +138,7 @@ ignore
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin ignore() { }
 
@@ -153,7 +153,7 @@ link
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin link() { }
 
@@ -175,7 +175,7 @@ message-[error|warning|success|info]
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin message-[error|warning|success|info]() { }
 
@@ -190,7 +190,7 @@ output
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin output() { }
 
@@ -210,7 +210,7 @@ parameter
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin parameter($name, $name, $name, $name: default value) { }
 
@@ -237,7 +237,7 @@ require
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin require() { 
 	  @include see;
@@ -251,9 +251,9 @@ Require
 Requires
 ~~~~~~~~
 
-* `see`
+* ``see``
 
-* `item`
+* ``item``
 
 see
 ---
@@ -261,7 +261,7 @@ see
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin see() { }
 
@@ -273,7 +273,7 @@ See
 Used By
 ~~~~~~~
 
-* [mixin] `require`
+* [mixin] ``require``
 
 since
 -----
@@ -286,7 +286,7 @@ version — description
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin since() { }
 
@@ -306,7 +306,7 @@ changelog
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin changelog() { }
 
@@ -330,7 +330,7 @@ throw
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin throw() { 
 	  @error "Error related message";
@@ -352,7 +352,7 @@ todo
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin todo() { }
 
@@ -372,7 +372,7 @@ item
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin item() { }
 
@@ -384,7 +384,7 @@ Item
 Used By
 ~~~~~~~
 
-* [mixin] `require`
+* [mixin] ``require``
 
 other-item
 ----------
@@ -392,7 +392,7 @@ other-item
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@mixin other-item() { }
 
@@ -407,7 +407,7 @@ prop
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	$prop: (default: default)
 
@@ -431,7 +431,7 @@ type
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	$type: "foo"
 
@@ -443,7 +443,7 @@ Type
 Type
 ~~~~
 
-`Bool | String`
+``Bool | String``
 
 other-item
 ----------
@@ -451,7 +451,7 @@ other-item
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	$other-item: "foo"
 
@@ -466,7 +466,7 @@ return
 Source
 ~~~~~~
 
-.. code-block::
+.. code-block:: scss
 
 	@function return() { 
 	  @return $foo;
@@ -480,4 +480,4 @@ Return
 Returns
 ~~~~~~~
 
-`type | other` — description
+``type | other`` — description
