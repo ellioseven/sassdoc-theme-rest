@@ -1,5 +1,5 @@
 {
-  "name": "sassdoc-rest-theme",
+  "name": "sassdoc-theme-rest",
   "version": "1.0.0",
   "description": "Sassdoc theme that converts to reStructured text",
   "main": "lib",
@@ -18,20 +18,20 @@
   "author": "Elliot Mitchum <elliot.mitchum@ellioseven.com>",
   "license": "ISC",
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ellioseven/sassdoc-rest-theme.git"
-  },
   "keywords": [
     "Sassdoc",
     "Sassdoc Theme",
     "reStructured Text"
   ],
-  "bugs": {
-    "url": "https://github.com/ellioseven/sassdoc-rest-theme/issues"
-  },
-  "homepage": "https://github.com/ellioseven/sassdoc-rest-theme#readme",
   "directories": {
     "test": "test"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellioseven/sassdoc-theme-rest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ellioseven/sassdoc-theme-rest/issues"
+  },
+  "homepage": "https://github.com/ellioseven/sassdoc-theme-rest#readme"
 }
