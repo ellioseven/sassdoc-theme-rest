@@ -1,6 +1,6 @@
 {
   "name": "sassdoc-theme-rest",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sassdoc theme that converts to reStructured text",
   "main": "lib",
   "dependencies": {
