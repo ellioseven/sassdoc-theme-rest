@@ -1,6 +1,5 @@
 {% if item.todo.length > 0 %}
-TODO's
-~~~~~~
+{{ "TODOs"|subsubsection_heading }}
 
 {% for todo in item.todo %}
 * {{ todo|safe }}

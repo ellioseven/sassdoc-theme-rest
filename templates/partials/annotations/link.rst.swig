@@ -1,6 +1,5 @@
 {% if item.link.length > 0 %}
-Links
-~~~~~
+{{ "Links"|subsubsection_heading }}
 
 {% for link in item.link %}
 {% if link.caption %}

@@ -1,6 +1,5 @@
 {% if 'content'|in(item) %}
-Content
-~~~~~~~
+{{ "Content"|subsubsection_heading }}
 
 This mixin allows extra content to be passed (through the `@content` directive).
 

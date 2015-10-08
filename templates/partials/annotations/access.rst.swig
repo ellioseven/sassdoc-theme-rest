@@ -1,6 +1,5 @@
 {% if item.access != "public" %}
-Access
-~~~~~~
+{{ "Access"|subsubsection_heading }}
 
 {{ item.access }}
 

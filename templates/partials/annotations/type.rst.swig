@@ -1,6 +1,5 @@
 {% if item.type %}
-Type
-~~~~
+{{ "Type"|subsubsection_heading }}
 
 {% if item.type == "*" %}
 Any

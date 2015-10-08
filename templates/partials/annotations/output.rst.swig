@@ -1,6 +1,5 @@
 {% if item.output %}
-Output
-~~~~~~
+{{ "Output"|subsubsection_heading }}
 
 {{ item.output|safe }}
 

@@ -1,6 +1,5 @@
 {% if item.return %}
-Returns
-~~~~~~~
+{{ "Returns"|subsubsection_heading }}
 
 {% if item.return.type == '*' %}
 Any type

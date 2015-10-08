@@ -314,7 +314,7 @@ Source
 .. code-block::
 
 	@mixin throw() { 
-	  @error "Error related message";
+	  @error &quot;Error related message&quot;;
 	}
 
 Description
@@ -342,8 +342,8 @@ Description
 
 Todo
 
-TODO's
-~~~~~~
+TODOs
+~~~~~
 
 * Task to be done
 
@@ -409,7 +409,7 @@ Source
 
 .. code-block::
 
-	$type: "foo"
+	$type: &quot;foo&quot;
 
 Description
 ~~~~~~~~~~~
@@ -429,7 +429,7 @@ Source
 
 .. code-block::
 
-	$other-item: "foo"
+	$other-item: &quot;foo&quot;
 
 Description
 ~~~~~~~~~~~

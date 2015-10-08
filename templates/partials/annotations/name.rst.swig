@@ -1,1 +1,1 @@
-{{ item.context.name|subheading }}
+{{ item.context.name|subsection_heading }}

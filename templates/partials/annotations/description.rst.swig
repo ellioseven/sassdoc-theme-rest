@@ -1,6 +1,5 @@
 {% if item.description %}
-Description
-~~~~~~~~~~~
+{{ "Description"|subsubsection_heading }}
 
 {{ item.description|safe }}
 

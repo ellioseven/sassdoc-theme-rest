@@ -1,6 +1,5 @@
 {% if item.author.length > 0 %}
-Author
-~~~~~~
+{{ "Author"|subsubsection_heading }}
 
 {% for author in item.author %}
 * {{ author|safe }}

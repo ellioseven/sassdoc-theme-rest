@@ -1,6 +1,5 @@
 {% if item.example.length > 0 %}
-Example
-~~~~~~~
+{{ "Example"|subsubsection_heading }}
 
 {% for example in item.example %}
 {% if example.description %}

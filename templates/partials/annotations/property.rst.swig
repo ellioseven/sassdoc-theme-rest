@@ -1,6 +1,5 @@
 {% if item.property.length > 0 %}
-Map Structure
-~~~~~~~~~~~~~
+{{ "Map Structure"|subsubsection_heading }}
 
 {{ item.property|output_parameters }}
 
