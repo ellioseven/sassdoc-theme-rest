@@ -12,5 +12,5 @@
   "groups": {
     "undefined": "General"
   },
-  "pagesFrom": "../test/pages"
+  "pagesFrom": false
 }
