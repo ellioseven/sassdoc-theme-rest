@@ -4,7 +4,7 @@
 {% if item.type == "*" %}
 Any
 {% else %}
-`{{ item.type }}`
+``{{ item.type }}``
 {% endif %}
 
 {% endif %}

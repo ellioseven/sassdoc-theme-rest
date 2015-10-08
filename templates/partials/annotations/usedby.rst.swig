@@ -3,7 +3,7 @@
 
 {% for usedBy in item.usedBy %}
 {% if (display.access.indexOf(usedBy.access) != -1) and not (not display.alias and usedBy.alias) %}
-* [{{ usedBy.context.type }}] `{{ usedBy.context.name }}`
+* [{{ usedBy.context.type }}] ``{{ usedBy.context.name }}``
 {% endif %}
 {% endfor %}
 

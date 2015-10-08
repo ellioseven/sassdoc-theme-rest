@@ -1,6 +1,6 @@
 {{ "Source"|subsubsection_heading }}
 
-.. code-block::
+.. code-block:: scss
 
 {% filter parse_code %}
 {% if item.context.type == "placeholder" %}

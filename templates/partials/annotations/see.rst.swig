@@ -3,7 +3,7 @@
 {{ "See"|subsubsection_heading }}
 
 {% for see in item.see %}
-* [{{ see.context.type }}] `{{ see.context.name }}`
+* [{{ see.context.type }}] ``{{ see.context.name }}``
 {% endfor %}
 
 {% endif %}

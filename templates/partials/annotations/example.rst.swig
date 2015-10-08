@@ -6,7 +6,7 @@
 {{ example.description|safe }}
 
 {% endif %}
-.. code-block::
+.. code-block:: scss
 
 {% filter parse_code %}
 {{ example.code|escape|safe }}
