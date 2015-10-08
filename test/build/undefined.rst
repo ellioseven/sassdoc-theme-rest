@@ -14,7 +14,14 @@ Source
 
 .. code-block::
 
-	@mixin access-private() { }
+	@mixin access-private() { 
+	  font-size: 20px;
+	  line-height: 20px;
+	
+	  @if 20 == font-size {
+	    font-size: 30px;
+	  }
+	}
 
 Description
 ~~~~~~~~~~~
@@ -241,6 +248,13 @@ Description
 
 Require
 
+Requires
+~~~~~~~~
+
+* `see`
+
+* `item`
+
 see
 ---
 
@@ -255,6 +269,11 @@ Description
 ~~~~~~~~~~~
 
 See
+
+Used By
+~~~~~~~
+
+* [mixin] `require`
 
 since
 -----
@@ -314,7 +333,7 @@ Source
 .. code-block::
 
 	@mixin throw() { 
-	  @error &quot;Error related message&quot;;
+	  @error "Error related message";
 	}
 
 Description
@@ -361,6 +380,11 @@ Description
 ~~~~~~~~~~~
 
 Item
+
+Used By
+~~~~~~~
+
+* [mixin] `require`
 
 other-item
 ----------
@@ -409,7 +433,7 @@ Source
 
 .. code-block::
 
-	$type: &quot;foo&quot;
+	$type: "foo"
 
 Description
 ~~~~~~~~~~~
@@ -429,7 +453,7 @@ Source
 
 .. code-block::
 
-	$other-item: &quot;foo&quot;
+	$other-item: "foo"
 
 Description
 ~~~~~~~~~~~
@@ -456,6 +480,4 @@ Return
 Returns
 ~~~~~~~
 
-`type | other`
-
-description
+`type | other` — description
