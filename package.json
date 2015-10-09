@@ -21,7 +21,8 @@
   "keywords": [
     "Sassdoc",
     "Sassdoc Theme",
-    "reStructured Text"
+    "reStructured Text",
+    "sassdoc-theme"
   ],
   "directories": {
     "test": "test"
